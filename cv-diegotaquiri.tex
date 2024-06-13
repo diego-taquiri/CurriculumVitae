@@ -1,0 +1,229 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% moderncv themes
+\moderncvstyle{classic} % casual, classic, banking, oldstyle and fancy
+\moderncvcolor{blue} 
+\moderncvhead{3}
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.75, top=2cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm} 
+%\settowidth{\hintscolumnwidth}{Jun-Sep, 2011} 
+%\setlength{\makecvtitlenamewidth}{10cm} % for the 'classic' style
+
+% personal data
+\name{Diego}{Taquiri-Díaz}
+%\title{Resumé title}
+%\address{street and number}{postcode city}{country}
+\email{diego.taquiri@upch.pe}
+\social[github]{diego-taquiri}
+\social[twitter]{diego\_taquiri}
+\social[linkedin]{diegotaquiri}
+\phone[mobile]{+51~949~503~024}
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+
+%\homepage{www.johndoe.com}
+
+
+%\extrainfo{additional information}
+%\photo[64pt][0.4pt]{example-image-a}
+%\quote{Some quote}
+
+\setlength{\footskip}{66pt}
+
+
+\begin{document}
+
+\makecvtitle
+\vspace{-1cm}
+
+\section{Education}
+\cventry{2020--2024}{B.S in Biology}
+{Universidad Peruana Cayetano Heredia (UPCH)}{Lima, Peru}{}
+{\textit{GPA: 4.0/4.0, AM: 16.8/20.0}}  % arguments 3 to 6 can be left empty
+\cventry{2017--2019}{B.S.E in Biomedical Engineering}
+  {Universidad Peruana Cayetano Heredia (UPCH) y Pontificia Universidad Católica del Perú (PUCP)}{Lima, Peru}{}
+  {\textit{GPA: 4.0/4.0, AM: 15.5/20.0}. Transitioned to a B.S. in Biology after 3 years of coursework.}
+%, 1st place in class ranking. Completed 3 out of 5 years of coursework. Transitioned to a B.S. in Biology.
+\section{Research Experience}
+\cventry{2023--2024}{Research Assistant}
+  {Grandjean Research Group}{University College London, UK}{}
+  {Principal investigator: MD, Ph.D. Louis Grandjean\newline{}%
+  Analysis of metagenomic wastewater sequencing, isolates from hospital-acquired infections, and optimization of metagenomics runs. My work included taxonomical classification, assembly of metagenomic MAGs, identification of pathogens and antimicrobial resistance genes, binning, quality assessment of genomes, phylogenomic analysis, plasmid analysis and methylation analysis, along with data preprocessing and visualization in R for publication-quality figures.
+  Main projects:%
+  \begin{itemize}%
+  \item Pathogen Surveillance in Wastewater Treatment Plants in Peru Using Metagenomics Long-Read Sequencing
+  \item Detection of Novel Mechanisms of Carbapenem-Resistant Enterobacterales in Peru
+  \item Evaluation of DNA Extraction Methods for Long-Read Nanopore Sequencing of \textit{Mycobacterium tuberculosis} Cultures
+  \end{itemize}
+  }
+
+\cventry{2023--2024}{Research Assistant}
+  {Zimic and Sheen Bioinformatics and Molecular Biology Lab}{Universidad Peruana Cayetano Heredia, Peru}
+  {}
+  {Principal investigator: Ph.D. Mirko Zimic and  Ph.D. Patricia Sheen\newline{}%
+  Genomic analysis of tuberculosis (TB) utilizing Nanopore and Illumina sequencing 
+  technologies, focusing on whole genome sequencing, amplicon sequencing, metagenomic 
+  analysis of sputum TB samples, and the study of TB heteroresistance and gene 
+  expression in TB blood samples. My contributions included the development of 
+  Nextflow bioinformatics pipelines for data processing, 
+  variant calling, assembly, expression analysis, among other tasks.
+  Main projects:%
+  \begin{itemize}%
+  \item Development and Evaluation of a Nanopore Sequencing Protocol for Determining Antibiotic Resistance in Tuberculosis Patients from Sputum Samples
+  \item Metagenomic Long-Read Sequencing of Soil in the Rhizosphere of Palta Trees Under Organic Fertilizers
+  \item Heteroresistance Analysis Through Illumina Whole Genome Sequencing of Isolates from 3000 Tuberculosis Patients
+  \item Illumina Shotgun Metagenome Sequencing Analysis of the Oral Microbiome in Children with and without Caries
+  \item Assessing Microbial Contamination and Pathogenic Presence in Lake Titicaca, Peru Using Long-read Metagenomics
+  \item Bulk RNA Sequencing Analysis of Platelets in Blood Samples from Patients with Tuberculosis
+  \item Structural Characterization of PonA1 as a Rifampicin Target in \textit{Mycobacterium tuberculosis} Using Docking and AlphaFold Modeling
+  \end{itemize}
+}
+\cventry{}{}
+  {}{}{}
+  {\begin{itemize}%
+    \item Detection of Pyrazinamide Resistance in Mycobacterium tuberculosis Using MALDI-TOF Mass Spectrometry
+  \end{itemize}
+  }
+
+\section{GitHub Repositories}
+  \cventry{2024}{\href{https://github.com/diego-taquiri/AutismSketchClassifier}{AutismSketchClassifier}}
+    {Pre-trained a ResNet neural network and used its feature vectors for KNN classification to detect autism-specific features in children's sketches.}{}{}
+    {}
+  \cventry{2024}{\href{https://github.com/diego-taquiri/ISB-equipo11}{Biomedical Signal Processing}}
+    {Processed ECG, EEG, and EMG signals, including denoising, feature extraction, data acquisition, and plotting.  }{}{}
+    {}
+  \cventry{2024}{\href{https://github.com/diego-taquiri/SimpleGenomicNextflow}{SimpleGenomicNextflow}}
+    {Developed and maintained a suite of user-friendly and flexible Nextflow scripts for genomic and metagenomic analysis.}{}{}
+    {}
+  \cventry{2023}{\href{https://github.com/diego-taquiri/ONT-tb-extraction}{ONT-tb-extraction}}
+    {Developed R scripts for statistical analysis and plotting, along with a Nextflow pipeline for comparative analysis of Nanopore sequencing of TB.}{}{}
+    {}
+
+\section{Skills}
+\cventry{}{Programming}
+  {}{}{R, Python, Nextflow, Bash.}
+  {}
+ \cventry{}{Toolbox}
+  {}{Linux, Git, ssh, LaTeX, VS Code, Tensorflow.}{}
+  {}
+\cventry{}{Languages}
+  {}{Spanish (native speaker), English (Full professional proficiency).}
+  {}
+  {}
+
+\section{Leadership Experience}
+\cventry{2022}{Directive Board Member}
+  {Journal Club}{Student Club}{UPCH}
+  {Directed communications and club leader recruitment, successfully establishing 20 specialized journal clubs and guiding over 100 new participants.
+  }
+\cventry{2022}{Research Secretary}
+  {Student Center for Sciences CEC}{Student council}
+  {UPCH}
+  {Orchestrated the faculty-wide university Science Week, managing over \$3,000 in funding and achieving an engagement of 1,000+ attendees. Additionally, organized a series of science webinars and career guidance sessions, featuring insights from invited speakers. 
+  }
+\cventry{2019}{Vice-President}
+  {IEEE Student Branch UPCH}{}
+  {UPCH}
+  {Coordinated multiple university, inter-university, and national congresses, meetings and events, engaging over 100 participants per event.
+  }
+\cventry{2019}{Founding Leader}
+  {Biomedical Engineering Association}{Student council}
+  {PUCP}
+  {Led the foundational efforts to establish the Biomedical Engineering Association, managed a core group of 10 members in the structuring and drafting of the association’s statutes.
+  }
+
+
+
+\section{Grant Writing}
+\cventry{2023}{Research grant 82878, \$100,000}
+  {National Council for Science, Technology, and Technological Innovation (CONCYTEC)}{Peru}
+  {}
+  {Conceptualized and authored the bioinformatics section of the grant proposal: "Development and evaluation of a MinION (Nanopore) sequencing-based protocol for determining
+Heteroresistance in tuberculosis patients directly from sputum samples".
+}
+
+\section{Courses}
+\cventry{2024}{Computer Vision}
+  {Undergradutate Course (+60 hours)}
+  {Universidad Peruana Cayetano Heredia, Peru.}
+  {}
+  {}
+\cventry{2024}{Population genomics}
+  {International Workshop (18 hours)}
+  {Universidad San Martín de Porres, Peru}
+  {In collaboration with the Barreiro Lab, University of Chicago.}
+  {}
+\cventry{2023}{Bioinformatics and Artificial Intelligence}
+  {International Training (20 hours)}{Peruvian Society of Bioinformatics and Computational Biology (SPBBC).}{}
+  {}  
+\cventry{2023}{Bioinformatics I}
+  {Undergradutate Course (+70 hours)}{Universidad Peruana Cayetano Heredia, Peru.}{}
+  {}
+
+\cventry{2023}{Introduction to Machine Learning}
+  {Undergradutate Course (+50 hours)}{Universidad Peruana Cayetano Heredia, Peru.}{}
+  {}
+
+\cventry{2022}{Neuromatch Academy: Deep Learning}
+  {International Summer School (+60 hours)}{}{}
+  {}
+%\cventry{2023--2024}{Deep learning specialization}
+%\cventry{2023--2024}{Computer Vision}
+
+\section{Teaching Experience}
+  \cventry{2023}{Teaching Assistant}
+    {Course: Bioinformatics I: Sequence Analysis}{Master’s Program}{Universidad Peruana Cayetano Heredia, Peru}
+    {Led practical workshops (12 hours) for approximately 30 students, covering DNA sequence assembly, molecular docking and molecular modeling with AlphaFold.
+    }
+  \cventry{2022}{Academic Tutor}
+    {Course: Molecular Biology of the Cell}{Undergraduate’s Program}{Universidad Peruana Cayetano Heredia, Peru}
+    {Lectured sessions for the Peer Academic Mentoring Program (37 hours). 
+    }
+
+\section{Honors \& Awards}
+\cventry{2019}{International Conference on Electronics, Electrical Engineering and Computing (XXVI INTERCON)}
+  {Best Applied Technological Development}
+  {Universidad Autonoma del Peru, Peru}{}
+  {}
+\cventry{2019}{Institute of Electrical and Electronics Engineers (IEEE)}
+  {Best new student branch}{Universidad Peruana Cayetano Heredia, Peru.}{}
+  {}
+%\cventry{2017}{Universidad Oberta de Cataluña (UOC)}
+%{"Internationalization at Home" scholarship (\$500)}{Entrepreneurial Initiative Program.}{}
+%{}
+
+\section{Extracurriculars}
+
+\cventry{2024}{Journal Club Coordinator}
+    {Bioinformatics}{Sociedad Peruana de Bioinformática y Biología Computacional}{}
+    {}
+\cventry{2022}{Journal Club Participant}
+    {Structural Biology}{Sociedad Peruana de Bioinformática y Biología Computacional}{}
+    {}
+\cventry{2022}{Journal Club Coordinator}
+    {Artificial Intelligence}{Journal Club UPCH}{}
+    {}
+\cventry{2021}{Writer}
+    {University Journal}{The Novice Scientist UPCH}{}
+    {}
+\cventry{2020}{Journal Club Participant}
+    {Cell Biology}{Journal Club UPCH}{}
+    {}
+\cventry{2020}{Journal Club Participant}
+    {Cancer Biology}{Journal Club UPCH}{}
+    {}
+  
+
+\section{References}
+\cventry{}{Ph.D. Mirko Zimic}
+    {Professor of Bionformatics and Molecular Biology at UPCH}{}{}
+    {Email: mirko.zimic@upch.pe}
+\cventry{}{MD, Ph.D. Louis Grandjean}
+    {Professor of Infectious Diseases at UCL, UK.}{}{}
+    {Email: l.grandjean@ucl.ac.uk}
+
+%\clearpage
+
+\end{document}
