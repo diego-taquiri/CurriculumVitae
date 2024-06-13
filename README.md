@@ -24,5 +24,5 @@ My current research focus is on bioinformatics and genomics. I am interested in 
 - **Synthetic Biology:** Designing functional DNA sequences and predicting their activity.
 - **Human Diseases:** Understanding disease mechanisms to develop better treatments.
 
-Please feel free to browse my CV and reach out.
+Please feel free to browse [my CV](cv-diegotaquiri.pdf) and reach out.
 
