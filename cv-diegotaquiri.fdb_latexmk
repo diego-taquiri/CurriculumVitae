@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1718245275.9001 "/Users/diegotaquiri/Desktop/proyectos/application/cv-diegotaquiri/cv-diegotaquiri.tex" "cv-diegotaquiri.pdf" "cv-diegotaquiri" 1718245277.7143 0
-  "/Users/diegotaquiri/Desktop/proyectos/application/cv-diegotaquiri/cv-diegotaquiri.tex" 1718245275.31069 10233 e664a73cfa354f1fd8a560810ac2505e ""
+["pdflatex"] 1721534722.27988 "/Users/diegotaquiri/Desktop/proyectos/application/cv-diegotaquiri/cv-diegotaquiri.tex" "cv-diegotaquiri.pdf" "cv-diegotaquiri" 1721534725.01621 0
+  "/Users/diegotaquiri/Desktop/proyectos/application/cv-diegotaquiri/cv-diegotaquiri.tex" 1721534721.26754 10234 edd2b0f459b586200b374dba069e82e8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1651520503 2608 3139db8e1f9371a4f87c0715d17fa217 ""
@@ -190,9 +190,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1711325282.92782 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1711325216 8221421 bd9352233cb8b7227a0cc6d4c9d04068 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "cv-diegotaquiri.aux" 1718245277.49362 1232 90a49faeface1322e97401dbd736ed11 "pdflatex"
-  "cv-diegotaquiri.out" 1718245277.49467 1271 60c5a7ed09b96ffd510a6fa97db3114d "pdflatex"
-  "cv-diegotaquiri.tex" 1718245275.31069 10233 e664a73cfa354f1fd8a560810ac2505e ""
+  "cv-diegotaquiri.aux" 1721534724.71246 1232 90a49faeface1322e97401dbd736ed11 "pdflatex"
+  "cv-diegotaquiri.out" 1721534724.71545 1271 60c5a7ed09b96ffd510a6fa97db3114d "pdflatex"
+  "cv-diegotaquiri.tex" 1721534721.26754 10234 edd2b0f459b586200b374dba069e82e8 ""
   (generated)
   "cv-diegotaquiri.aux"
   "cv-diegotaquiri.log"
