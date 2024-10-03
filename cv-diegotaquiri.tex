@@ -49,20 +49,42 @@
 \section{Research Experience}
 \cventry{2023--Present}{Research Assistant}
   {Grandjean Research Group}{University College London, UK}{}
-  {Principal investigator: MD, Ph.D. Louis Grandjean\newline{}%
-  Analysis of metagenomic wastewater sequencing, isolates from hospital-acquired infections, and optimization of metagenomics runs. My work included taxonomical classification, assembly of metagenomic MAGs, identification of pathogens and antimicrobial resistance genes, binning, quality assessment of genomes, phylogenomic analysis, plasmid analysis and methylation analysis, along with data preprocessing and visualization in R for publication-quality figures.
+  {Principal investigator: MD, Ph.D. Louis Grandjean
+  \begin{itemize}%
+    \item \textbf{Cis-regulatory element prediction:} Predicted cis-regulatory elements (promoters) of antibiotic resistance genes in bacterial strains and compared mutations across strains to explain differences in phenotypic resistance, despite identical genomic resistance profiles.
+    \item \textbf{Methylomic analysis:} Performed basecalling and alignment using Nanopore sequencing modification models to identify 6mA, 5mC, and 5hmC methylation patterns in \textit{Klebsiella pneumoniae} isolates, analyzing methylation profiles in resistance genes to explore their potential role in antibiotic resistance.
+    %\item \textbf{Multi-omic analysis:} Characterized antibiotic resistance in \textit{Klebsiella pneumoniae} clinical isolates using long-read genomic, and methylomic data generated through Nanopore sequencing.
+    \item \textbf{Metagenomic assembly:} Conducted metagenomic assembly of wastewater samples using deep sequencing with PromethION Nanopore technology to generate high-quality MAGs and achieve reproducible detection of bacterial pathogens and antibiotic resistance.
+    \item \textbf{Phylogenetics analysis:} Annotated gene markers from metagenome-assembled genomes (MAGs), performed multiple sequence alignment, constructed phylogenetic trees, and conducted species identification. Validated candidate novel species using contamination and completeness metrics for quality control. 
+    \item \textbf{Whole-genome analysis:} Developed an end-to-end Nextflow pipeline to process 187 \textit{M. tuberculosis} genomes sequenced in-house using Nanopore technology, generating post-sequencing metrics such as quality and mapping statistics, and conducted statistical comparisons of extraction methods using R.
+  \end{itemize}
   }
 
 \cventry{2023--Present}{Research Assistant}
   {Bioinformatics and Molecular Biology Lab}{Universidad Peruana Cayetano Heredia, Peru}
   {}
-  {Principal investigator: Ph.D. Mirko Zimic and  Ph.D. Patricia Sheen\newline{}%
-  Genomic analysis of tuberculosis (TB) utilizing Nanopore and Illumina sequencing 
-  technologies, focusing on whole genome sequencing, amplicon sequencing, metagenomic 
-  analysis of sputum TB samples, and the study of TB heteroresistance and gene 
-  expression in TB blood samples. My contributions included the development of 
-  Nextflow bioinformatics pipelines for data processing, 
-  variant calling, assembly, expression analysis, among other tasks.
+  {Principal investigator: Ph.D. Mirko Zimic and  Ph.D. Patricia Sheen%
+  \begin{itemize}%
+    \item \textbf{RNA-seq analysis} Performed RNA sequencing analysis of platelets from patients with and without tuberculosis, including splice-aware mapping, unsupervised clustering, differential gene expression, gene ontology, gene set enrichment analysis, and supervised machine learning to predict TB diagnosis based on RNA profiles.
+    \item \textbf{Variant calling:} Conducted reference-based mapping and variant calling on 3,932 \textit{M. tuberculosis} whole genome sequences, followed by heteroresistance analysis to detect low-frequency mutations in bacterial subpopulations across 14 antibiotic resistance genes.
+    \item \textbf{Molecular docking and structural modeling:} Conducted structural characterization of the PonA1 protein of \textit{M. tuberculosis} using AlphaFold2/ESMFold to predict the full protein structure, followed by deep learning-based (Diffdock) and classical docking (Gnina) methods to identify rifampicin-binding pockets.
+  \end{itemize}
+  }
+
+  \cventry{}{}
+  {}{}{}
+  {\begin{itemize}%
+    \item \textbf{Annotation} Performed gene and functional annotation on metagenomic nanopore sequencing data from agricultural soil samples to identify gene abundance, metabolic pathways, plasmids, and viral elements associated with microbiome changes in palta tree rhizospheres under organic fertilizers. 
+    \item \textbf{Differential abundance analysis:} Conducted differential abundance analysis on Illumina shotgun metagenome sequencing data from the oral microbiomes of children with and without caries, performing taxonomic classification, identifying statistically significant taxa and antibiotic resistance genes, and using multivariate analysis (PCoA) to cluster microbiome profiles.
+    \item \textbf{TB detection and resistance profiling:} Developed and evaluated a nanopore sequencing protocol for direct detection of \textit{M. tuberculosis} and antibiotic resistance from sputum samples, utilizing shotgun metagenomics, amplicon sequencing, adaptive sampling, and culture-based whole genome sequencing (WGS). Conducted read filtering, gene depth analysis, resistance profiling across 13 genes, compared enrichment methods, and performed TB lineage profiling.
+    \item \textbf{Proteomic analysis} Developed and validated an assay using MALDI-TOF mass spectrometry to detect pyrazinamide resistance in \textit{M. tuberculosis} by analyzing the conversion of pyrazinamide to pyrazinoic acid in MODS culture.
+    \item \textbf{Miscellaneuos:}
+    \begin{itemize}
+      \item \textbf{Established genomics operations:} Built the lab's bioinformatics capacity from the ground up after acquiring a nanopore sequencing device, managing everything from experimental design and sequencing monitoring to data processing, analysis, visualization, and interpretation.
+      \item \textbf{Computational Infrastructure Management:} Managed and optimized the bioinformatics computational infrastructure for a genomics lab, including high-performance computing workstations, large-scale storage systems, and data pipelines.
+      \item \textbf{Team leadership and mentoring:} Led and mentored a seven-person bioinformatics team, managing multiple projects concurrently.
+      \end{itemize}
+  \end{itemize}
   }
 
 %\cventry{2024--Present}{Bachelor’s Thesis}
@@ -101,11 +123,14 @@ microbiome of avocado in an agro-exporting farm".
 
   
 \section{GitHub Repositories}
+   \cventry{2024}{\href{https://github.com/diego-taquiri/HeartDiseaseMLInterpretation}{HeartDiseaseMLInterpretation}}
+    {Trained a machine learning model using XGBoost with hyperparameter tuning and implemented SHAP for interpretability, highlighting feature importance in heart disease prediction.}{}{}
+    {}  
   \cventry{2024}{\href{https://github.com/diego-taquiri/AutismSketchClassifier}{AutismSketchClassifier}}
     {Pre-trained a ResNet neural network and used its feature vectors for KNN classification to detect autism-specific features in children's sketches.}{}{}
     {}
-  \cventry{2024}{\href{https://github.com/diego-taquiri/ISB-equipo11}{Biomedical Signal Processing}}
-    {Processed ECG, EEG, and EMG signals, including denoising, feature extraction, data acquisition, and plotting.  }{}{}
+  \cventry{2024}{\href{https://github.com/diego-taquiri/ECGMortalityPredictor}{ECGMortalityPredictor}}
+    {Processed ECG, EEG, and EMG signals, applying wavelet transforms for denoising and feature extraction. Developed a TinyML-based early warning system using XGBoost to predict cardiovascular risk in Chagas patients.}{}{}
     {}
   \cventry{2024}{\href{https://github.com/diego-taquiri/SimpleGenomicNextflow}{SimpleGenomicNextflow}}
     {Developed and maintained a suite of user-friendly and flexible Nextflow scripts for genomic and metagenomic analysis.}{}{}
@@ -116,10 +141,10 @@ microbiome of avocado in an agro-exporting farm".
 
 \section{Skills}
 \cventry{}{Programming}
-  {}{}{R, Python, Nextflow, Bash.}
+  {}{}{R/RStudio, Python, Nextflow, Bash.}
   {}
  \cventry{}{Toolbox}
-  {}{Linux, Git, ssh, LaTeX, VS Code, Tensorflow.}{}
+  {}{Linux, Git, ssh, Docker, LaTeX, VS Code, Tensorflow, Tidyverse, Polars.}{}
   {}
 \cventry{}{Languages}
   {}{Spanish (native speaker), English (Full professional proficiency).}
@@ -254,11 +279,18 @@ Heteroresistance in tuberculosis patients directly from sputum samples".
 
 \section{References}
 \cventry{}{Ph.D. Mirko Zimic}
-    {Professor of Bionformatics and Molecular Biology at UPCH}{}{}
+    {Professor of Bionformatics at Universidad Peruana Cayetano Heredia, Peru}{}{}
     {Email: mirko.zimic@upch.pe}
+\cventry{}{Ph.D. Patricia Sheen}
+    {Professor of Molecular Biology at Universidad Peruana Cayetano Heredia, Peru}{}{}
+    {Email: patricia.sheen@upch.pe}
 \cventry{}{MD, Ph.D. Louis Grandjean}
-    {Professor of Infectious Diseases at UCL, UK.}{}{}
+    {Professor of Infectious Diseases at University College London, UK.}{}{}
     {Email: l.grandjean@ucl.ac.uk}
+\cventry{}{MD, Ph.D. Robert H. Gilman}
+    {Professor of International Health at Johns Hopkins, USA}{}{}
+    {Email: rgilman1@jhmi.edu}
+
 
 %\clearpage
 
