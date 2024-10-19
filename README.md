@@ -2,6 +2,8 @@
 
 I am Diego Taquiri-Díaz, a last-year Biology undergraduate at Universidad Peruana Cayetano Heredia (UPCH), Lima, Peru.
 
+[![Download my CV](https://img.shields.io/badge/Download%20CV-PDF-blue)](https://github.com/diego-taquiri/CV/raw/main/cv-diegotaquiri.pdf)
+
 
 ## About Me
 
