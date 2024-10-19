@@ -325,6 +325,7 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.e
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsltt10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmss.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmss.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmss.fd
@@ -336,6 +337,7 @@ INPUT ./cv-diegotaquiri.out
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsltt10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb

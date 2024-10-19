@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1727968582.53495 "/Users/diegotaquiri/Desktop/proyectos/application/cv-diegotaquiri/cv-diegotaquiri.tex" "cv-diegotaquiri.pdf" "cv-diegotaquiri" 1727968584.58485 0
-  "/Users/diegotaquiri/Desktop/proyectos/application/cv-diegotaquiri/cv-diegotaquiri.tex" 1727968582.21644 17207 d81e750cf6fc9a87ff3356b112e3cfde ""
+["pdflatex"] 1729355651.55839 "/Users/diegotaquiri/Desktop/proyectos/application/cv-diegotaquiri/cv-diegotaquiri.tex" "cv-diegotaquiri.pdf" "cv-diegotaquiri" 1729355654.7424 0
+  "/Users/diegotaquiri/Desktop/proyectos/application/cv-diegotaquiri/cv-diegotaquiri.tex" 1729355651.04837 17735 7c559b99be195fe1e2a97a7e5a96326b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1651520503 2608 3139db8e1f9371a4f87c0715d17fa217 ""
@@ -18,6 +18,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsltt10.tfm" 1136768653 772 76dff4441fc200cf2723ff2c162bccb5 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmss10.tfm" 1136768653 1316 b636689f1933f24d1294acdf6041daaa ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmss12.tfm" 1136768653 1324 37b971caf729d7edd9cbb9f9b0ea76eb ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmss17.tfm" 1136768653 1320 ed93d62c5f2c16343826001f03341dbc ""
@@ -32,6 +33,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/fontawesome5/fa5free0regular.tfm" 1622837620 1132 8aee78c25f591abde3c9ce09e694423f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1regular.tfm" 1622837620 1204 3c27bf26105e0c1f2d31dba92f1c652d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/fontawesome5/fa5free2solid.tfm" 1622837620 1340 b21002f38a477f345fa9dc96a5613e2b ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsltt10.pfb" 1248133631 30171 cff051467c1c400a2443bf9fbc4018c8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb" 1248133631 24457 5cbb7bdf209d5d1ce9892a9b80a307cc ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb" 1248133631 24393 3b7eb51a67a0a62aec5849271bdb9c2e ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb" 1248133631 28902 2f5c04fd2884d1878057baa5aad22765 ""
@@ -190,9 +192,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1711325282.92782 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1711325216 8221421 bd9352233cb8b7227a0cc6d4c9d04068 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "cv-diegotaquiri.aux" 1727968584.35378 1689 c8430de1c299e92110a929ea0d5deb28 "pdflatex"
-  "cv-diegotaquiri.out" 1727968584.35458 1845 b729a8768da168c2a134f31852e45a6e "pdflatex"
-  "cv-diegotaquiri.tex" 1727968582.21644 17207 d81e750cf6fc9a87ff3356b112e3cfde ""
+  "cv-diegotaquiri.aux" 1729355654.39432 1689 155fd8f6a6243f38aa39c4e2fb7d6e11 "pdflatex"
+  "cv-diegotaquiri.out" 1729355654.39767 1845 b729a8768da168c2a134f31852e45a6e "pdflatex"
+  "cv-diegotaquiri.tex" 1729355651.04837 17735 7c559b99be195fe1e2a97a7e5a96326b ""
   (generated)
   "cv-diegotaquiri.aux"
   "cv-diegotaquiri.log"
