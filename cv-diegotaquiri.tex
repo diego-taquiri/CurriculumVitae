@@ -43,9 +43,28 @@
 {Universidad Peruana Cayetano Heredia (\#1 program in Peru)}{}{}
 {\textit{GPA: 4.0/4.0, 16.8/20.0 in original scale (Top 20\% of the class)}.}  % arguments 3 to 6 can be left empty
 \cventry{2017--2019}{B.S.E in Biomedical Engineering}
-  {Universidad Peruana Cayetano Heredia (UPCH) y Pontificia Universidad Católica del Perú (PUCP)}{Lima, Peru}{}
+  %Universidad Peruana Cayetano Heredia (UPCH) y
+  {Pontificia Universidad Católica del Perú}{Peru}{}
   {\textit{GPA: 4.0/4.0, 15.5/20.0 in original scale (Top 10\% of the class)}. Transitioned to a B.S. in Biology after 3 years of coursework.}
 %, 1st place in class ranking. Completed 3 out of 5 years of coursework. Transitioned to a B.S. in Biology.
+
+\section{Skills}
+\cvitem{}{\small \textbf{Programming:} 
+R/RStudio, Python, Nextflow, AWS, GitHub, Bash, Unix. 
+}
+\cvitem{}{\small \textbf{Machine Learning:} 
+PyTorch, Tensorflow, Large Language Models (LLM), CNNs, XGBoost
+}
+\cvitem{}{\small \textbf{Toolbox:} 
+Visual Studio Code, ssh, Tidyverse, Polars, Docker, LaTeX.
+}
+\cvitem{}{\small \textbf{Bioinformatics:} 
+RNAseq, scRNAseq, Genomics, Metagenomics, Epigenomics, Phylogenetics, Proteomics, NGS, Biostatistics, Molecular docking, 3D Structure Prediction. 
+}
+\cvitem{}{\small \textbf{Languages:} 
+Spanish (native speaker), English (Full professional proficiency).
+}
+
 \section{Research Experience}
 \cventry{2023--Present}{Research Assistant}
   {Grandjean Research Group}{University College London, UK}{}
@@ -65,15 +84,15 @@
   {}
   {Principal investigator: Ph.D. Mirko Zimic and  Ph.D. Patricia Sheen%
   \begin{itemize}%
-    \item \textbf{RNA-seq analysis} Performed RNA sequencing analysis of platelets from patients with and without tuberculosis, including splice-aware mapping, unsupervised clustering, differential gene expression, gene ontology, gene set enrichment analysis, and supervised machine learning to predict TB diagnosis based on RNA profiles.
     \item \textbf{Variant calling:} Conducted reference-based mapping and variant calling on 3,932 \textit{M. tuberculosis} whole genome sequences, followed by heteroresistance analysis to detect low-frequency mutations in bacterial subpopulations across 14 antibiotic resistance genes.
-    \item \textbf{Molecular docking and structural modeling:} Conducted structural characterization of the PonA1 protein of \textit{M. tuberculosis} using AlphaFold2/ESMFold to predict the full protein structure, followed by deep learning-based (Diffdock) and classical docking (Gnina) methods to identify rifampicin-binding pockets.
   \end{itemize}
   }
 
   \cventry{}{}
   {}{}{}
   {\begin{itemize}%
+    \item \textbf{RNA-seq analysis} Performed RNA sequencing analysis of platelets from patients with and without tuberculosis, including splice-aware mapping, unsupervised clustering, differential gene expression, gene ontology, gene set enrichment analysis, and supervised machine learning to predict TB diagnosis based on RNA profiles.
+    \item \textbf{Molecular docking and structural modeling:} Conducted structural characterization of the PonA1 protein of \textit{M. tuberculosis} using AlphaFold2/ESMFold to predict the full protein structure, followed by deep learning-based (Diffdock) and classical docking (Gnina) methods to identify rifampicin-binding pockets.
     \item \textbf{Annotation} Performed gene and functional annotation on metagenomic nanopore sequencing data from agricultural soil samples to identify gene abundance, metabolic pathways, plasmids, and viral elements associated with microbiome changes in palta tree rhizospheres under organic fertilizers. 
     \item \textbf{Differential abundance analysis:} Conducted differential abundance analysis on Illumina shotgun metagenome sequencing data from the oral microbiomes of children with and without caries, performing taxonomic classification, identifying statistically significant taxa and antibiotic resistance genes, and using multivariate analysis (PCoA) to cluster microbiome profiles.
     \item \textbf{TB detection and resistance profiling:} Developed and evaluated a nanopore sequencing protocol for direct detection of \textit{M. tuberculosis} and antibiotic resistance from sputum samples, utilizing shotgun metagenomics, amplicon sequencing, adaptive sampling, and culture-based whole genome sequencing (WGS). Conducted read filtering, gene depth analysis, resistance profiling across 13 genes, compared enrichment methods, and performed TB lineage profiling.
@@ -93,6 +112,32 @@
 %  {Principal investigator: Ph.D. Mirko Zimic and  Ph.D. Patricia Sheen\newline{}%
 % Adaptive sampling
 %  }
+
+\section{GitHub Repositories}
+  \cventry{2024}{\href{https://github.com/diego-taquiri/nanoGPT-DNA}{nanoGPT-DNA}}
+    {Developed a lightweight GPT-like transformer model to learn the regulatory language of DNA sequences. Adapted nanoGPT to train on the human genome (hg38) using autoregressive training with nucleotide-level tokenization, with a focus on evaluating regulatory motif classification (Work in progress).}{}{}
+    {}
+  %\cventry{2024}{\href{https://github.com/diego-taquiri/AWS-nanoGPT-training}{AWS-nanoGPT-training}}
+   % {Deployed and trained a small-scale transformer GPT-2 model using PyTorch on AWS infrastructure.}{}{}
+    %{}
+  \cventry{2024}{\href{https://github.com/diego-taquiri/AWS-scRNAseq-Nextflow}{AWS-scRNAseq-Nextflow}}
+    {Deployed and ran Nextflow-based \texttt{nf-core} pipelines for single-cell RNA sequencing on AWS using AWS Batch and Tower. Automated quality control, integration, clustering, and cell type annotation.}{}{}
+    {}
+  \cventry{2024}{\href{https://github.com/diego-taquiri/HeartDiseaseMLInterpretation}{HeartDiseaseMLInterpretation}}
+    {Trained a machine learning model using XGBoost with hyperparameter tuning and implemented SHAP for interpretability, highlighting feature importance in heart disease prediction.}{}{}
+    {}  
+  \cventry{2024}{\href{https://github.com/diego-taquiri/AutismSketchClassifier}{AutismSketchClassifier}}
+    {Pre-trained a ResNet neural network and used its feature vectors for KNN classification to detect autism-specific features in children's sketches.}{}{}
+    {}
+  \cventry{2024}{\href{https://github.com/diego-taquiri/ECGMortalityPredictor}{ECGMortalityPredictor}}
+    {Processed ECG, EEG, and EMG signals, applying wavelet transforms for denoising and feature extraction. Developed a TinyML-based early warning system using XGBoost to predict cardiovascular risk in Chagas patients.}{}{}
+    {}
+  \cventry{2024}{\href{https://github.com/diego-taquiri/SimpleGenomicNextflow}{SimpleGenomicNextflow}}
+    {Developed and maintained a suite of user-friendly and flexible Nextflow scripts for genomic and metagenomic analysis.}{}{}
+    {}
+  \cventry{2023}{\href{https://github.com/diego-taquiri/ONT-tb-extraction}{ONT-tb-extraction}}
+    {Developed R scripts for statistical analysis and plotting, along with a Nextflow pipeline for comparative analysis of Nanopore sequencing of TB.}{}{}
+    {}
 
 \section{Publications}
 \subsection{Under review}
@@ -121,77 +166,7 @@ microbiome of avocado in an agro-exporting farm".
 \textbf{Contribution: I designed and performed computational analyses, and was involved in writing the paper.}
 }
 
-  
-\section{GitHub Repositories}
-  \cventry{2024}{\href{https://github.com/diego-taquiri/nanoGPT-DNA}{nanoGPT-DNA}}
-    {Developed a lightweight GPT-like transformer model to learn the regulatory language of DNA sequences. Adapted nanoGPT to train on the human genome (hg38) using autoregressive training with nucleotide-level tokenization, with a focus on evaluating regulatory motif classification.}{}{}
-    {}
-  %\cventry{2024}{\href{https://github.com/diego-taquiri/AWS-nanoGPT-training}{AWS-nanoGPT-training}}
-   % {Deployed and trained a small-scale transformer GPT-2 model using PyTorch on AWS infrastructure.}{}{}
-    %{}
-  \cventry{2024}{\href{https://github.com/diego-taquiri/AWS-scRNAseq-Nextflow}{AWS-scRNAseq-Nextflow}}
-    {Deployed and ran Nextflow-based \texttt{nf-core} pipelines for single-cell RNA sequencing on AWS using AWS Batch and Tower. Automated quality control, integration, clustering, and cell type annotation.}{}{}
-    {}
-  \cventry{2024}{\href{https://github.com/diego-taquiri/HeartDiseaseMLInterpretation}{HeartDiseaseMLInterpretation}}
-    {Trained a machine learning model using XGBoost with hyperparameter tuning and implemented SHAP for interpretability, highlighting feature importance in heart disease prediction.}{}{}
-    {}  
-  \cventry{2024}{\href{https://github.com/diego-taquiri/AutismSketchClassifier}{AutismSketchClassifier}}
-    {Pre-trained a ResNet neural network and used its feature vectors for KNN classification to detect autism-specific features in children's sketches.}{}{}
-    {}
-  \cventry{2024}{\href{https://github.com/diego-taquiri/ECGMortalityPredictor}{ECGMortalityPredictor}}
-    {Processed ECG, EEG, and EMG signals, applying wavelet transforms for denoising and feature extraction. Developed a TinyML-based early warning system using XGBoost to predict cardiovascular risk in Chagas patients.}{}{}
-    {}
-  \cventry{2024}{\href{https://github.com/diego-taquiri/SimpleGenomicNextflow}{SimpleGenomicNextflow}}
-    {Developed and maintained a suite of user-friendly and flexible Nextflow scripts for genomic and metagenomic analysis.}{}{}
-    {}
-  \cventry{2023}{\href{https://github.com/diego-taquiri/ONT-tb-extraction}{ONT-tb-extraction}}
-    {Developed R scripts for statistical analysis and plotting, along with a Nextflow pipeline for comparative analysis of Nanopore sequencing of TB.}{}{}
-    {}
-
-\section{Skills}
-\cventry{}{Programming}
-  {}{}{R/RStudio, Python, Nextflow, Bash.}
-  {}
- \cventry{}{Toolbox}
-  {}{Linux, Git, ssh, AWS, Docker, LaTeX, VS Code, Tidyverse, Polars.}{}
-  {}
-\cventry{}{Languages}
-  {}{Spanish (native speaker), English (Full professional proficiency).}
-  {}
-  {}
-
-\section{Leadership Experience}
-\cventry{2022}{Directive Board Member}
-  {Journal Club}{Student Club}{UPCH}
-  {Directed communications and club leader recruitment, successfully establishing 20 specialized journal clubs and guiding over 100 new participants.
-  }
-\cventry{2022}{Research Secretary}
-  {Student Center for Sciences CEC}{Student council}
-  {UPCH}
-  {Orchestrated the faculty-wide university Science Week, managing over \$3,000 in funding and achieving an engagement of 1,000+ attendees. Additionally, organized a series of science webinars and career guidance sessions, featuring insights from invited speakers. 
-  }
-\cventry{2019}{Vice-President}
-  {IEEE Student Branch UPCH}{}
-  {UPCH}
-  {Coordinated multiple university, inter-university, and national congresses, meetings and events, engaging over 100 participants per event.
-  }
-\cventry{2019}{Founding Leader}
-  {Biomedical Engineering Association}{Student council}
-  {PUCP}
-  {Led the foundational efforts to establish the Biomedical Engineering Association, managed a core group of 10 members in the structuring and drafting of the association’s statutes.
-  }
-
-
-
-\section{Grant Writing}
-\cventry{2023}{Research grant 82878, \$100,000}
-  {National Council for Science, Technology, and Technological Innovation (CONCYTEC)}{Peru}
-  {}
-  {Conceptualized and authored the bioinformatics section of the grant proposal: "Development and evaluation of a MinION (Nanopore) sequencing-based protocol for determining
-Heteroresistance in tuberculosis patients directly from sputum samples".
-}
-
-\section{Courses}
+\section{Relevant Coursework}
 \cventry{2024}{Natural language processing}
   {Undergradutate Course (+60 hours)}
   {Universidad Peruana Cayetano Heredia, Peru.}
@@ -224,11 +199,43 @@ Heteroresistance in tuberculosis patients directly from sputum samples".
 %\cventry{2023--2024}{Deep learning specialization}
 %\cventry{2023--2024}{Computer Vision}
 
+\section{Leadership Experience}
+\cventry{2022}{Directive Board Member}
+  {Journal Club}{Student Club}{UPCH}
+  {Directed communications and club leader recruitment, successfully establishing 20 specialized journal clubs and guiding over 100 new participants.
+  }
+\cventry{2022}{Research Secretary}
+  {Student Center for Sciences CEC}{Student council}
+  {UPCH}
+  {Orchestrated the faculty-wide university Science Week, managing over \$3,000 in funding and achieving an engagement of 1,000+ attendees. Additionally, organized a series of science webinars and career guidance sessions, featuring insights from invited speakers. 
+  }
+\cventry{2019}{Vice-President}
+  {IEEE Student Branch UPCH}{}
+  {UPCH}
+  {Coordinated multiple university, inter-university, and national congresses, meetings and events, engaging over 100 participants per event.
+  }
+\cventry{2019}{Founding Leader}
+  {Biomedical Engineering Association}{Student council}
+  {PUCP}
+  {Led the foundational efforts to establish the Biomedical Engineering Association, managed a core group of 10 members in the structuring and drafting of the association’s statutes.
+  }
+
+
+
+\section{Grant Writing}
+\cventry{2023}{Research grant 82878, \$100,000}
+  {National Council for Science, Technology, and Technological Innovation (CONCYTEC)}{Peru}
+  {}
+  {Conceptualized and authored the bioinformatics section of the grant proposal: "Development and evaluation of a MinION (Nanopore) sequencing-based protocol for determining
+Heteroresistance in tuberculosis patients directly from sputum samples".
+}
+
+
 \section{Posters \& Presentations}
 
 \cventry{2024}{American Society of Tropical Medicine and Hygiene (ASTMH)}
-  {Poster Presentation: Identifying Novel Mechanisms of Carbapenem Resistant Enterobacterales in Lima, Peru}
-  {New Orleans, LA, USA (Upcoming, 2024). \textbf{\underline{D.A. Taquiri-Díaz}}, O. Romero.}{}
+  {Accepted Poster: Identifying Novel Mechanisms of Carbapenem Resistant Enterobacterales in Lima, Peru}
+  {New Orleans, LA, USA (Accepted, not presented due to funding constraints). C. Tan, \textbf{\underline{D.A. Taquiri-Díaz}}, O. Romero.}{}
   {}
 \cventry{2024}{V International Congress of the Peruvian Society of Bioinformatics and Computational Biology:}
   {Oral Presentation (online): Exploring the Computational Resources of the Bioinformatics and Molecular Biology Laboratory of UPCH and its Applications in Research}
